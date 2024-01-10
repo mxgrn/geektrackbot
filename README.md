@@ -2,6 +2,8 @@
 
 A versatile logging and tracking solution leveraging the [Telegram](https://telegram.org/) platform, which I've been building for myself and friends since 2022.
 
+<img width="640" alt="Group 2 (3)" src="https://github.com/mxgrn/geektrackbot/assets/33935/146064e1-bc2c-4262-b5de-ddbb3c06a56a">
+
 ## Features
 
 - Cumulative tracking (e.g. time spent reading/meditating, amount of water consumed, expenses, exercise reps, etc)
