@@ -44,7 +44,7 @@ Need a specific feature? [Let me know](https://t.me/geektracktalk).
 
 Create one group per tracker.
 
-![Creating new group with bot](https://github.com/mxgrn/geektrackbot/assets/33935/80226f72-d2ef-4114-b89a-241bf71772b8)
+![Creating new group](https://github.com/mxgrn/geektrackbot/assets/33935/73aab7e7-7796-46fa-b435-be917a96ae82)
 
 _Creating a new group with the bot_
 
