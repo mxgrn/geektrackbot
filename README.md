@@ -1,4 +1,4 @@
-<img alt="Geektrack Beta" src="https://github.com/mxgrn/geektrackbot/assets/33935/146064e1-bc2c-4262-b5de-ddbb3c06a56a">
+<img alt="Geektrack screenshots" src="https://github.com/mxgrn/geektrackbot/assets/33935/146064e1-bc2c-4262-b5de-ddbb3c06a56a">
 <br>
 
 A versatile [logging and tracking solution](https://t.me/geektrackbot) I've been building for myself and friends since 2022. Now in public beta.
@@ -9,29 +9,29 @@ _This repo is [NOT](https://github.com/mxgrn/geektrackbot?tab=readme-ov-file#is-
 
 ## Features
 
-- Cumulative tracking (e.g. time spent reading/meditating, amount of water consumed, expenses, exercise reps, etc)
-- Streaks (e.g. how many days in a row you logged something) and breaks (how many days you did _not_ log something specific)
+- Cumulative tracking (e.g. time spent reading/meditating, amount of water consumed, expenses, exercise reps, etc).
+- Streaks (e.g. how many days in a row you logged something) and breaks (how many days you did _not_ log something specific).
 - Daily, weekly, monthly, and yearly reports. Reports are sent at midnight.
-- Record reports: if you had a record month of meditating, Geektrack will notify you about it
-- Charts and other visual UI to help you reflect, analyze, and grow
+- Record reports: if you had a record month of meditating, Geektrack will notify you about it.
+- Charts and other visual UI to help you reflect, analyze, and grow.
 - Timezone support. Moving around the globe? Geetrack adapts.
-- Support for dark themes
+- Support for dark themes.
 
 ### Upcoming features
 
 - Data export. I know how important it is to have access to all your data at any time.
 - Support for trend tracking (e.g. weight, mood, energy levels, etc). The difference with cumulative tracking is that it doesn't make sense to sum up weight, mood, etc.
-- Next to cumulative tracking, I'll add more forms of aggregate tracking
-    - An example could be a *count* of certain log entries, e.g. when you want to know _how many times_ you had a lucid dream in the past year, and not a sum of "lucidity" that you could be actually logging
-- More [data entry formats](https://github.com/mxgrn/geektrackbot?tab=readme-ov-file#data-entry-format)
-- More configuration options (currently accessible in the [miniapp](https://github.com/mxgrn/geektrackbot?tab=readme-ov-file#miniapp))
+- Next to cumulative tracking, I'll add more forms of aggregate tracking.
+    - An example could be a *count* of certain log entries, e.g. when you want to know _how many times_ you had a lucid dream in the past year, and not a sum of "lucidity" that you could be actually logging.
+- More [data entry formats](https://github.com/mxgrn/geektrackbot?tab=readme-ov-file#data-entry-format).
+- More configuration options (currently accessible in the [miniapp](https://github.com/mxgrn/geektrackbot?tab=readme-ov-file#miniapp)).
 - More (configurable) notifications - e.g. streak records, a reminder to keep a streak, etc.
 
 ### Future work
 
-- API to invite all sorts of integrations and plugins
+- API to invite all sorts of integrations and plugins.
 - Goals. You could define, say, a monthly goal of 1000 push-ups, then track how close you stay to the plan - weekly or daily.
-- Support for the [Elastic Habbits](https://www.amazon.com/Elastic-Habits-Create-Smarter-Adapt-ebook/dp/B08188WBGC) system
+- Support for the [Elastic Habbits](https://www.amazon.com/Elastic-Habits-Create-Smarter-Adapt-ebook/dp/B08188WBGC) system.
 
 Besides, I have a very long list of other ideas that I would like to implement at some time, but I won't rush into discussing them. For 2 years Geektrack has been growing along my own needs, and I'm only starting, really.
 
@@ -44,7 +44,9 @@ Need a specific feature? [Let me know](https://t.me/geektracktalk).
 
 Create one group per tracker.
 
-Press the "Miniapp" button at the bottom of your _chat with the bot itself_ (that is, [here](https://t.me/geektrackbot) - the button is available after you _start_ the bot) to open the app.
+![Creating new group with bot](https://github.com/mxgrn/geektrackbot/assets/33935/80226f72-d2ef-4114-b89a-241bf71772b8)
+
+_Creating a new group with the bot_
 
 ## Data entry format
 
@@ -81,12 +83,12 @@ For the purposes of Geektrack, Telegram covers the 2 most important use cases: e
 
 Additionally, going with Telegram has the following advantages:
 
-- No need to install yet another app on your phone or computer (given you already use [Telegram](https://telegram.org), arguable the best messenger out there)
-- No need for me to go through app store moderation
-- Updates are frequent and instant, as Geektrack is "just" a web service
-- Works on any platform, both from mobile phones and desktops
+- No need to install yet another app on your phone or computer (given you already use [Telegram](https://telegram.org), arguable the best messenger out there).
+- No need for me to go through app store moderation.
+- Updates are frequent and instant, as Geektrack is "just" a web service.
+- Works on any platform, both from mobile phones and desktops.
 
-## Tips
+## Tips and tricks
 
 - Organize your Telegram tracking groups into folders for easier access and/or use the search. I have - and am actively using - dozens of trackers, with no issues finding my way around.
 - Instead of using folders, you may want to name such groups with a prefix, e.g. 'GT jogging', which may simplify the esearch.
