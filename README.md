@@ -1,7 +1,7 @@
 <img alt="Geektrack screenshots" src="https://github.com/mxgrn/geektrackbot/assets/33935/146064e1-bc2c-4262-b5de-ddbb3c06a56a">
 <br>
 
-A versatile [logging and tracking solution](https://t.me/geektrackbot) I've been building for myself and friends since 2022. Now in public beta.
+[Geektrack](https://t.me/geektrack) is a versatile logging and tracking solution I've been building for myself and friends since 2022. Now in public beta.
 
 It's built on top of the [Telegram](https://telegram.org/) platform. Using chats as trackers turned out to be a very [powerful and simple idea](https://github.com/mxgrn/geektrackbot?tab=readme-ov-file#why-not-a-native-app).
 
@@ -11,7 +11,7 @@ _This repo is [NOT](https://github.com/mxgrn/geektrackbot?tab=readme-ov-file#is-
 
 - Cumulative tracking (e.g. time spent reading/meditating, amount of water consumed, expenses, exercise reps, etc).
 - Streaks (e.g. how many days in a row you logged something) and breaks (how many days you did _not_ log something specific).
-- Daily, weekly, monthly, and yearly reports. Reports are sent at midnight.
+- Daily, weekly, monthly, and yearly reports. Reports are sent at midnight (mute your groups!).
 - Record reports: if you had a record month of meditating, Geektrack will notify you about it.
 - Charts and other visual UI to help you reflect, analyze, and grow.
 - Timezone support. Moving around the globe? Geetrack adapts.
@@ -39,6 +39,10 @@ Need a specific feature? [Let me know](https://t.me/geektracktalk).
 
 ## Getting started
 
+Start [the bot](https://t.me/geektrackbot) and follow the instructions.
+
+Otherwise, here are the 2 simple steps:
+
 1. Create a Telegram group with @geektrackbot as another user, name it, e.g. "Jogging, min"
 2. Start posting your log entries into that group, e.g. "50"
 
@@ -52,12 +56,12 @@ _Creating a new group with the bot_
 
 Currently, Geektrack supports the following data entry formats
 
-- Integers, e.g. "100"
-- Decimals, e.g. "10.5"
+- Integers, e.g. '100'
+- Decimals, e.g. '10.5'
 - Time entry, stored as _minutes_
-    - 10:30 is 10.5 minutes
-    - 0:45 is 0.75 minutes
-    - 1:10:00 is 70 minutes
+    - '10:30' for 10.5 minutes
+    - '0:45' for 0.75 minutes
+    - '1:10:00' for 70 minutes
 
 The entry should start with a know format. The text that follows, is ignored, but stored internally (it may turn into notes later).
 If an antry cannot be parsed, it'll be silently ignored.
@@ -75,11 +79,13 @@ Telegram allows us to implement "miniapps" just are basically authorized webview
 
 ### Is this open source?
 
-Geektrack is not (yet) open source. If you feel like helping me develop it (and maybe get to use Geektrack for free, forever), [reach out](https://x.com/mxgrn), and I may set you up as a contributor in the private repo.
+Geektrack is not (yet) open source. If you _really_ feel like contributing (and maybe get to use Geektrack for free, forever) - [reach out](https://x.com/mxgrn), and I may set you up as a contributor on the private repo. The main tech being used is Elixir, Phoenix, LiveView, Oban, and Tailwind.
 
 ### Why not a native app?
 
-For the purposes of Geektrack, Telegram covers the 2 most important use cases: entering data, and receiving notifications. The idea of entering log data in a chat, as well as getting reminders, feedback, reports, etc from the bot in the same chat, proved to be very simple and intuitive. And when this is not enough, Telegram's support for [miniapps](https://core.telegram.org/bots/webapps) provides freedom to build near-native experience where needed.
+For the purposes of Geektrack, Telegram covers the 2 most important use cases: entering data, and receiving notifications. The idea of entering log data in a chat, as well as getting reminders, feedback, reports, etc from the bot in the same chat, proved to be very simple and intuitive, as you have all your tracking history and bot reports, tips and notifications in one place, tailored for a specific tracker.
+
+And when a chat is not enough, Telegram's support for [miniapps](https://core.telegram.org/bots/webapps) provides freedom to build near-native experience where needed.
 
 Additionally, going with Telegram has the following advantages:
 
